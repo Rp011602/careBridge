@@ -1,0 +1,405 @@
+{
+  "profiles": [
+    {
+      "id": "elder-1",
+      "name": "Eleanor Vance",
+      "role": "elder",
+      "title": "Senior / Patient",
+      "passcode": "1234",
+      "age": 78,
+      "conditions": [
+        "Hypertension",
+        "Type 2 Diabetes",
+        "Mild Osteoarthritis"
+      ],
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "bloodGroup": "O+",
+      "primaryDoctor": "Dr. Robert Chen",
+      "emergencyPhone": "+1 (555) 234-8900",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=250",
+      "address": "422 Rosewood Lane, Apt 3B, Oakridge",
+      "lastCheckIn": {
+        "status": "In Pain",
+        "emoji": "🤕",
+        "timestamp": "2026-11-15T06:31:23.994Z"
+      }
+    },
+    {
+      "id": "care-1",
+      "name": "Marcus Reed",
+      "role": "caretaker",
+      "title": "Primary Caregiver (CNA)",
+      "passcode": "5678",
+      "phone": "+1 (555) 891-2345",
+      "email": "marcus.caregiver@carebridge.demo",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=250",
+      "agency": "ComfortLiving Home Care"
+    },
+    {
+      "id": "fam-1",
+      "name": "Sarah Vance",
+      "role": "family",
+      "title": "Daughter & Healthcare Proxy",
+      "passcode": "9999",
+      "phone": "+1 (555) 345-6789",
+      "email": "sarah.vance@carebridge.demo",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=250",
+      "relationship": "Daughter"
+    },
+    {
+      "id": "doc-1",
+      "name": "Dr. Robert Chen",
+      "role": "doctor",
+      "title": "Cardiologist & PCP",
+      "passcode": "4321",
+      "phone": "+1 (555) 789-0123",
+      "email": "dr.chen@oakridgehealth.demo",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=250",
+      "clinic": "Oakridge Heart & Vascular Center"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med-1",
+      "name": "Metformin",
+      "dosage": "500 mg",
+      "purpose": "Blood sugar regulation (Diabetes)",
+      "timing": "Morning",
+      "timeStr": "08:30",
+      "frequency": "Daily",
+      "withFood": true,
+      "instructions": "Take with breakfast and a full glass of water. Do not crush.",
+      "pillColor": "White",
+      "pillShape": "Round Tablet",
+      "pillColorHex": "#f8fafc",
+      "pillBorderHex": "#94a3b8",
+      "remainingPills": 42,
+      "refillThreshold": 14,
+      "prescribedBy": "Dr. Robert Chen",
+      "pharmacy": "Oakridge Community Pharmacy (Rx #492819)",
+      "active": true
+    },
+    {
+      "id": "med-2",
+      "name": "Lisinopril",
+      "dosage": "10 mg",
+      "purpose": "Blood pressure management",
+      "timing": "Morning",
+      "timeStr": "09:00",
+      "frequency": "Daily",
+      "withFood": false,
+      "instructions": "Take each morning. Avoid salt substitutes containing potassium.",
+      "pillColor": "Pink",
+      "pillShape": "Oval Tablet",
+      "pillColorHex": "#f472b6",
+      "pillBorderHex": "#db2777",
+      "remainingPills": 4,
+      "refillThreshold": 7,
+      "prescribedBy": "Dr. Robert Chen",
+      "pharmacy": "Oakridge Community Pharmacy (Rx #782910)",
+      "active": true
+    },
+    {
+      "id": "med-3",
+      "name": "Vitamin D3",
+      "dosage": "1,000 IU",
+      "purpose": "Bone density & immune support",
+      "timing": "Afternoon",
+      "timeStr": "13:00",
+      "frequency": "Daily",
+      "withFood": true,
+      "instructions": "Take with lunch or healthy fats for optimal absorption.",
+      "pillColor": "Golden Amber",
+      "pillShape": "Softgel Capsule",
+      "pillColorHex": "#f59e0b",
+      "pillBorderHex": "#d97706",
+      "remainingPills": 54,
+      "refillThreshold": 10,
+      "prescribedBy": "Dr. Robert Chen",
+      "pharmacy": "Over-the-counter",
+      "active": true
+    },
+    {
+      "id": "med-4",
+      "name": "Atorvastatin",
+      "dosage": "20 mg",
+      "purpose": "Cholesterol reduction",
+      "timing": "Bedtime",
+      "timeStr": "21:00",
+      "frequency": "Daily",
+      "withFood": false,
+      "instructions": "Take before bed. Avoid drinking grapefruit juice.",
+      "pillColor": "Sky Blue",
+      "pillShape": "Oblong Capsule",
+      "pillColorHex": "#38bdf8",
+      "pillBorderHex": "#0284c7",
+      "remainingPills": 22,
+      "refillThreshold": 7,
+      "prescribedBy": "Dr. Robert Chen",
+      "pharmacy": "Oakridge Community Pharmacy (Rx #610283)",
+      "active": true
+    },
+    {
+      "id": "med-5",
+      "name": "Albuterol Sulfate Inhaler",
+      "dosage": "90 mcg (2 puffs)",
+      "purpose": "Bronchospasm / breathing relief",
+      "timing": "As Needed",
+      "timeStr": "PRN",
+      "frequency": "As Needed",
+      "withFood": false,
+      "instructions": "Rinse mouth after inhalation. Keep accessible at bedside.",
+      "pillColor": "Teal Blue",
+      "pillShape": "Aerosol Inhaler",
+      "pillColorHex": "#14b8a6",
+      "pillBorderHex": "#0f766e",
+      "remainingPills": 120,
+      "refillThreshold": 20,
+      "prescribedBy": "Dr. Robert Chen",
+      "pharmacy": "Oakridge Community Pharmacy (Rx #901238)",
+      "active": true
+    }
+  ],
+  "adherenceLogs": [
+    {
+      "id": "adh-1",
+      "medId": "med-1",
+      "medName": "Metformin 500mg",
+      "date": "2026-11-15",
+      "scheduledTime": "08:30",
+      "actionTime": "2026-11-15T08:34:10.000Z",
+      "status": "taken",
+      "recordedBy": "Eleanor Vance (Self via Senior Portal)",
+      "notes": "Taken with oatmeal breakfast and water."
+    },
+    {
+      "id": "adh-2",
+      "medId": "med-2",
+      "medName": "Lisinopril 10mg",
+      "date": "2026-11-15",
+      "scheduledTime": "09:00",
+      "actionTime": null,
+      "status": "pending",
+      "recordedBy": null,
+      "notes": null
+    },
+    {
+      "id": "adh-3",
+      "medId": "med-3",
+      "medName": "Vitamin D3 1000 IU",
+      "date": "2026-11-15",
+      "scheduledTime": "13:00",
+      "actionTime": null,
+      "status": "pending",
+      "recordedBy": null,
+      "notes": null
+    },
+    {
+      "id": "adh-4",
+      "medId": "med-4",
+      "medName": "Atorvastatin 20mg",
+      "date": "2026-11-15",
+      "scheduledTime": "21:00",
+      "actionTime": null,
+      "status": "pending",
+      "recordedBy": null,
+      "notes": null
+    },
+    {
+      "id": "adh-hist-1",
+      "medId": "med-1",
+      "medName": "Metformin 500mg",
+      "date": "2026-11-14",
+      "scheduledTime": "08:30",
+      "actionTime": "2026-11-14T08:31:00.000Z",
+      "status": "taken",
+      "recordedBy": "Eleanor Vance",
+      "notes": ""
+    },
+    {
+      "id": "adh-hist-2",
+      "medId": "med-2",
+      "medName": "Lisinopril 10mg",
+      "date": "2026-11-14",
+      "scheduledTime": "09:00",
+      "actionTime": "2026-11-14T09:05:00.000Z",
+      "status": "taken",
+      "recordedBy": "Marcus Reed (Caregiver)",
+      "notes": "Verified during morning visit."
+    },
+    {
+      "id": "adh-hist-3",
+      "medId": "med-3",
+      "medName": "Vitamin D3 1000 IU",
+      "date": "2026-11-14",
+      "scheduledTime": "13:00",
+      "actionTime": "2026-11-14T13:15:00.000Z",
+      "status": "taken",
+      "recordedBy": "Eleanor Vance",
+      "notes": ""
+    },
+    {
+      "id": "adh-hist-4",
+      "medId": "med-4",
+      "medName": "Atorvastatin 20mg",
+      "date": "2026-11-14",
+      "scheduledTime": "21:00",
+      "actionTime": "2026-11-14T21:02:00.000Z",
+      "status": "taken",
+      "recordedBy": "Eleanor Vance",
+      "notes": ""
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1",
+      "doctorName": "Dr. Robert Chen",
+      "specialty": "Cardiology & Vascular",
+      "clinicName": "Oakridge Heart & Vascular Center",
+      "address": "740 Medical Parkway, Suite 300, Oakridge",
+      "phone": "+1 (555) 789-0123",
+      "appointmentDate": "2026-11-18",
+      "appointmentTime": "14:30",
+      "companion": "Sarah Vance (Daughter)",
+      "transportation": "Sarah will pick up Mom at 1:45 PM",
+      "prepInstructions": "Bring updated blood pressure log & current medication bottles.",
+      "questions": "Discuss mild ankle swelling in evenings; review if Lisinopril dosage needs fine-tuning.",
+      "status": "upcoming"
+    },
+    {
+      "id": "apt-2",
+      "doctorName": "Dr. Laura Patel",
+      "specialty": "Ophthalmology / Diabetic Eye Exam",
+      "clinicName": "Oakridge Vision Institute",
+      "address": "120 Elmwood Blvd, Suite 105",
+      "phone": "+1 (555) 456-7890",
+      "appointmentDate": "2026-11-25",
+      "appointmentTime": "10:15",
+      "companion": "Marcus Reed (Caregiver)",
+      "transportation": "ComfortLiving Medical Van requested",
+      "prepInstructions": "Eyes will be dilated; bring dark sunglasses.",
+      "questions": "Annual diabetic retinopathy screening; check current reading glasses prescription.",
+      "status": "upcoming"
+    },
+    {
+      "id": "apt-3",
+      "doctorName": "LabCorp Diagnostics",
+      "specialty": "Routine Comprehensive Metabolic Panel & HbA1c",
+      "clinicName": "LabCorp Patient Center",
+      "address": "500 Central Ave, Oakridge",
+      "phone": "+1 (555) 992-1144",
+      "appointmentDate": "2026-12-02",
+      "appointmentTime": "08:15",
+      "companion": "Sarah Vance",
+      "transportation": "Sarah driving",
+      "prepInstructions": "Fasting required for 10 hours prior. Water and morning Lisinopril permitted.",
+      "questions": "HbA1c test and kidney filtration review.",
+      "status": "scheduled"
+    }
+  ],
+  "vitals": [
+    {
+      "id": "vit-1",
+      "timestamp": "2026-11-15T08:15:00.000Z",
+      "bloodPressure": "124/80",
+      "heartRate": 72,
+      "bloodGlucose": 108,
+      "hydrationGlasses": 3,
+      "recordedBy": "Marcus Reed (Caregiver)",
+      "notes": "Resting morning vitals. Blood sugar is well controlled."
+    },
+    {
+      "id": "vit-2",
+      "timestamp": "2026-11-14T19:00:00.000Z",
+      "bloodPressure": "128/82",
+      "heartRate": 74,
+      "bloodGlucose": 115,
+      "hydrationGlasses": 6,
+      "recordedBy": "Sarah Vance (Daughter)",
+      "notes": "Evening check after dinner."
+    },
+    {
+      "id": "vit-3",
+      "timestamp": "2026-11-14T08:30:00.000Z",
+      "bloodPressure": "122/78",
+      "heartRate": 70,
+      "bloodGlucose": 105,
+      "hydrationGlasses": 6,
+      "recordedBy": "Marcus Reed (Caregiver)",
+      "notes": "Good baseline morning reading."
+    }
+  ],
+  "caregiverNotes": [
+    {
+      "id": "note-1",
+      "author": "Marcus Reed",
+      "authorRole": "Primary Caregiver",
+      "timestamp": "2026-11-15T09:15:00.000Z",
+      "category": "Daily Routine",
+      "text": "Morning visit complete. Eleanor enjoyed scrambled eggs and chamomile tea. Took morning Metformin on time. We did 10 minutes of gentle leg stretching on the porch."
+    },
+    {
+      "id": "note-2",
+      "author": "Sarah Vance",
+      "authorRole": "Daughter",
+      "timestamp": "2026-11-14T20:30:00.000Z",
+      "category": "Family Update",
+      "text": "Spent the evening with Mom looking through family photo albums from the summer trip. Her spirits were wonderful! Refilled her water carafe by the bedside."
+    },
+    {
+      "id": "note-3",
+      "author": "Marcus Reed",
+      "authorRole": "Primary Caregiver",
+      "timestamp": "2026-11-13T14:00:00.000Z",
+      "category": "Pharmacy Refill Notice",
+      "text": "Checked the pill organizer. Lisinopril is down to only 4 pills left. I will request the refill from Oakridge Pharmacy today."
+    }
+  ],
+  "notificationLogs": [
+    {
+      "id": "notif-1794733340931-su4o",
+      "type": "missed_dose_alert",
+      "subject": "⚠️ PROACTIVE ALERT: Eleanor Vance missed Vitamin D3 dose (92m overdue)",
+      "recipient": "marcus.caregiver@carebridge.demo, sarah.vance@carebridge.demo",
+      "timestamp": "2026-11-15T09:02:20.931Z",
+      "status": "Sent (Delivered)",
+      "preview": "Proactive Alert: Eleanor Vance has not confirmed taking Vitamin D3 (1,000 IU) scheduled for 13:00. Please follow up.",
+      "html": "\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <style>\n    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #fef2f2; margin: 0; padding: 20px; color: #1e293b; }\n    .card { max-width: 580px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(239, 68, 68, 0.15); border: 2px solid #fecaca; }\n    .header { background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 28px 24px; text-align: center; }\n    .header h1 { margin: 0; font-size: 24px; font-weight: 700; }\n    .content { padding: 28px 24px; }\n    .alert-pill { display: inline-block; background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-weight: 700; font-size: 13px; margin-bottom: 16px; }\n    .alert-box { background: #fff1f2; border: 2px solid #fca5a5; border-radius: 12px; padding: 20px; margin: 20px 0; }\n    .alert-title { font-size: 20px; font-weight: 800; color: #b91c1c; margin: 0 0 10px 0; }\n    .action-steps { background: #f8fafc; border-radius: 10px; padding: 16px; margin: 20px 0; border: 1px solid #e2e8f0; }\n    .action-steps li { margin-bottom: 8px; font-size: 14px; color: #334155; }\n    .footer { text-align: center; padding: 20px; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <div class=\"header\">\n      <h1>⚠️ Proactive Missed Dose Alert</h1>\n      <p style=\"margin: 8px 0 0 0; opacity: 0.95;\">Action Requested for Care Circle</p>\n    </div>\n    <div class=\"content\">\n      <div class=\"alert-pill\">OVERDUE BY 92 MINUTES</div>\n      <p style=\"font-size: 16px; line-height: 1.6;\">Hello <strong>Care Circle</strong>,</p>\n      <p style=\"font-size: 15px; color: #475569;\">\n        Our automated adherence system detected that <strong>Eleanor Vance</strong> has not logged their scheduled medication.\n      </p>\n\n      <div class=\"alert-box\">\n        <div class=\"alert-title\">💊 Vitamin D3 (1,000 IU)</div>\n        <p style=\"margin: 4px 0; color: #4b5563;\"><strong>Scheduled Time:</strong> 13:00</p>\n        <p style=\"margin: 4px 0; color: #dc2626; font-weight: 600;\"><strong>Status:</strong> Not marked as taken (92 minutes late)</p>\n      </div>\n\n      <div class=\"action-steps\">\n        <strong style=\"color: #0f172a; font-size: 15px;\">Recommended Next Steps:</strong>\n        <ol style=\"padding-left: 20px; margin-top: 10px;\">\n          <li>Contact <strong>Eleanor Vance</strong> to verify if they have taken their dose.</li>\n          <li>Check if they are experiencing any dizziness, nausea, or confusion.</li>\n          <li>Once verified, record the dose or note in the CareBridge Caretaker Portal.</li>\n        </ol>\n      </div>\n    </div>\n    <div class=\"footer\">\n      <p>CareBridge Smart Healthcare Monitoring System &bull; Keeping Loved Ones Connected & Safe</p>\n    </div>\n  </div>\n</body>\n</html>\n  ",
+      "previewUrl": null
+    },
+    {
+      "id": "notif-1794724237282-o6j3",
+      "type": "missed_dose_alert",
+      "subject": "⚠️ PROACTIVE ALERT: Eleanor Vance missed Lisinopril dose (180m overdue)",
+      "recipient": "marcus.caregiver@carebridge.demo, sarah.vance@carebridge.demo",
+      "timestamp": "2026-11-15T06:30:37.282Z",
+      "status": "Sent (Delivered)",
+      "preview": "Proactive Alert: Eleanor Vance has not confirmed taking Lisinopril (10 mg) scheduled for 09:00. Please follow up.",
+      "html": "\n<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"utf-8\">\n  <style>\n    body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #fef2f2; margin: 0; padding: 20px; color: #1e293b; }\n    .card { max-width: 580px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(239, 68, 68, 0.15); border: 2px solid #fecaca; }\n    .header { background: linear-gradient(135deg, #dc2626, #ef4444); color: white; padding: 28px 24px; text-align: center; }\n    .header h1 { margin: 0; font-size: 24px; font-weight: 700; }\n    .content { padding: 28px 24px; }\n    .alert-pill { display: inline-block; background: #fee2e2; color: #991b1b; padding: 6px 14px; border-radius: 9999px; font-weight: 700; font-size: 13px; margin-bottom: 16px; }\n    .alert-box { background: #fff1f2; border: 2px solid #fca5a5; border-radius: 12px; padding: 20px; margin: 20px 0; }\n    .alert-title { font-size: 20px; font-weight: 800; color: #b91c1c; margin: 0 0 10px 0; }\n    .action-steps { background: #f8fafc; border-radius: 10px; padding: 16px; margin: 20px 0; border: 1px solid #e2e8f0; }\n    .action-steps li { margin-bottom: 8px; font-size: 14px; color: #334155; }\n    .footer { text-align: center; padding: 20px; font-size: 12px; color: #94a3b8; border-top: 1px solid #f1f5f9; }\n  </style>\n</head>\n<body>\n  <div class=\"card\">\n    <div class=\"header\">\n      <h1>⚠️ Proactive Missed Dose Alert</h1>\n      <p style=\"margin: 8px 0 0 0; opacity: 0.95;\">Action Requested for Care Circle</p>\n    </div>\n    <div class=\"content\">\n      <div class=\"alert-pill\">OVERDUE BY 180 MINUTES</div>\n      <p style=\"font-size: 16px; line-height: 1.6;\">Hello <strong>Care Circle</strong>,</p>\n      <p style=\"font-size: 15px; color: #475569;\">\n        Our automated adherence system detected that <strong>Eleanor Vance</strong> has not logged their scheduled medication.\n      </p>\n\n      <div class=\"alert-box\">\n        <div class=\"alert-title\">💊 Lisinopril (10 mg)</div>\n        <p style=\"margin: 4px 0; color: #4b5563;\"><strong>Scheduled Time:</strong> 09:00</p>\n        <p style=\"margin: 4px 0; color: #dc2626; font-weight: 600;\"><strong>Status:</strong> Not marked as taken (180 minutes late)</p>\n      </div>\n\n      <div class=\"action-steps\">\n        <strong style=\"color: #0f172a; font-size: 15px;\">Recommended Next Steps:</strong>\n        <ol style=\"padding-left: 20px; margin-top: 10px;\">\n          <li>Contact <strong>Eleanor Vance</strong> to verify if they have taken their dose.</li>\n          <li>Check if they are experiencing any dizziness, nausea, or confusion.</li>\n          <li>Once verified, record the dose or note in the CareBridge Caretaker Portal.</li>\n        </ol>\n      </div>\n    </div>\n    <div class=\"footer\">\n      <p>CareBridge Smart Healthcare Monitoring System &bull; Keeping Loved Ones Connected & Safe</p>\n    </div>\n  </div>\n</body>\n</html>\n  ",
+      "previewUrl": "https://ethereal.email/message/avlRHks6EhPCyIOvavlRjRu0HW7UgPNFAAAAAf3ELn2zPtoHM.IvAAem4ec"
+    },
+    {
+      "id": "notif-1",
+      "type": "dose_reminder",
+      "subject": "CareBridge Reminder: Time for Metformin 500mg",
+      "recipient": "eleanor.vance@carebridge.demo",
+      "timestamp": "2026-11-15T08:25:00.000Z",
+      "status": "Sent",
+      "preview": "Scheduled dosage 500mg morning with breakfast.",
+      "html": ""
+    },
+    {
+      "id": "notif-2",
+      "type": "refill_warning",
+      "subject": "⚠️ Refill Warning: Lisinopril 10mg running low (4 pills left)",
+      "recipient": "marcus.caregiver@carebridge.demo, sarah.vance@carebridge.demo",
+      "timestamp": "2026-11-14T15:00:00.000Z",
+      "status": "Sent",
+      "preview": "Medication is under 7 day safety threshold.",
+      "html": ""
+    }
+  ]
+}
